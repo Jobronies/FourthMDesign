@@ -241,6 +241,10 @@ textarea {
   color: #FFF;
 }
 
+@media (max-width: 600px) {
+    #down { margin-top:20px }
+}
+
 /* Footer */
 
 footer {
