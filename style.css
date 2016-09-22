@@ -3,6 +3,7 @@ html {
   height: 100%;
   max-width: 100%;
   margin: 0;
+  background-image: url('img/backdrop.png');
 }
 
 .material-icons {
@@ -148,9 +149,16 @@ nav a {
   margin: 0;
   margin-top: 100px;
   margin-bottom: 0;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 /* Content */
+
+#twopromo {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
 textarea {
   height: 100px;
@@ -167,19 +175,6 @@ textarea {
 .featured {
   text-align: center;
   font-family: "Montserrat";
-}
-
-.featured a {
-  padding: 10px;
-  background-color: white;
-  border: 2px solid black;
-}
-
-.featured a:hover {
-  transition: background-color .25s ease;
-  background-color: #000;
-  transition: color .25s ease;
-  color: #FFF;
 }
 
 .featured p {
@@ -228,7 +223,6 @@ textarea {
 
 .button {
   padding: 10px;
-  background-color: white;
   border: 2px solid black;
   font-family: 'Montserrat';
   text-align: center;
@@ -237,6 +231,8 @@ textarea {
 .button:hover {
   transition: background-color .25s ease;
   background-color: #000;
+  transition: opacity .25s ease;
+  opacity: .5;
   transition: color .25s ease;
   color: #FFF;
 }
@@ -248,7 +244,6 @@ textarea {
 /* Footer */
 
 footer {
-  background-color: #FFF;
   text-align: center;
   font-family: "Montserrat";
   height: 80px;
